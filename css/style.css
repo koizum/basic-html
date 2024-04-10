@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+p {
+    margin: 0;
+}
+
+#parent_position_relative_01 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: #69f;
+}
+
+#Child_position_absolute_01 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: #f99;
+}
+
+#parent_position_relative_01 > p, #Child_position_absolute_01 > p {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
