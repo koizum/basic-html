@@ -1,7 +1,15 @@
 @charset "utf-8";
 
-p {
+body, p {
     margin: 0;
+}
+
+.outer, .outer_font {
+    margin: 8px;
+}
+
+.outer_font {
+    font-size: 16px;
 }
 
 #parent_position_relative_01 {
@@ -11,7 +19,7 @@ p {
     background-color: #69f;
 }
 
-#Child_position_absolute_01 {
+#child_position_absolute_01 {
     position: absolute;
     top: 50px;
     left: 50px;
@@ -20,9 +28,27 @@ p {
     background-color: #f99;
 }
 
-#parent_position_relative_01 > p, #Child_position_absolute_01 > p {
+#parent_position_relative_01 > p, #child_position_absolute_01 > p {
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+
+.parent_em {
+    font-size: 1em;
+}
+
+.child_em {
+    color: #f64;
+    font-size: 0.5em;
+}
+
+.parent_rem {
+    font-size: 1rem;
+}
+
+.child_rem {
+    color: #f64;
+    font-size: 0.5rem;
 }
