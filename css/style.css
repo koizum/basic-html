@@ -1,11 +1,15 @@
 @charset "utf-8";
 
-body, p {
+body, p, h4 {
     margin: 0;
 }
 
-.outer, .outer_font {
+.outer, .outer_display, .outer_font {
     margin: 8px;
+}
+
+.outer_display {
+    background-color: #ccc;
 }
 
 .outer_font {
@@ -33,6 +37,10 @@ body, p {
     font-weight: 600;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+
+.block_level, .inline_level {
+    padding: 8px;
 }
 
 .parent_em {
