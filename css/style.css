@@ -18,7 +18,7 @@ body, p, h4 {
 
 #parent_position_relative_01 {
     position: relative;
-    width: 400px;
+    width: 350px;
     height: 200px;
     background-color: #69f;
 }
@@ -39,7 +39,7 @@ body, p, h4 {
     line-height: 1.5;
 }
 
-.block_level, .inline_level {
+.block_level, .inline_level, .inline_block, .display_none, .visibility_hidden {
     padding: 8px;
 }
 
